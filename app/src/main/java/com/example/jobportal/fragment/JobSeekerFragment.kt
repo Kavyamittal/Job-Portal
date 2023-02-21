@@ -41,6 +41,16 @@ class JobSeekerFragment : Fragment() {
             }
         }
 
+        binding.educationCard.setOnClickListener {
+            if(binding.educationDetails.isVisible){
+                binding.educationEt.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.baseline_keyboard_arrow_down_24, 0);
+                binding.educationDetails.visibility=View.GONE
+            }else{
+                binding.educationEt.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.baseline_keyboard_arrow_up_24, 0);
+                binding.educationDetails.visibility=View.VISIBLE
+            }
+        }
+
         return binding.root
     }
 
