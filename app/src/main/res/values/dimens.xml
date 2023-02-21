@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimens300dp">300dp</dimen>
+    <dimen name="dimens250dp">250dp</dimen>
+    <dimen name="font32sp">32sp</dimen>
+</resources>
